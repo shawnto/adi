@@ -54,7 +54,7 @@ class minionClickingThread(threading.Thread):
 
 
 if __name__ == '__main__':
-    cas_path = 'C:\Users\Shawn\Documents\\redMinionTraining\melee_minion_cas\cascade.xml'
+    cas_path = 'Cascade path'
     vid_in = VideoIn(cas_path, cap_slot=1)
     obj_find = ObjectFinder(cas_path, k_val=1.25, nearest_neighbor=20)
     min_click = MinionClicker()
